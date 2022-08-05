@@ -1,3 +1,5 @@
+//import static javax.swing.text.rtf.RTFAttributes.BooleanAttribute.True;
+
 public class Main {
     public static void main(String[] args) {
         Post post = new Post();
@@ -6,7 +8,7 @@ public class Main {
         post.patronymic = "Иванович";
         post.phone = "+7 (999)-999-99-99";
         post.surname = "Иванов";
-        post.subscription = "True";
+        post.subscription = true;
 
         // Дата рождения
         post.birthday.day = 13;
